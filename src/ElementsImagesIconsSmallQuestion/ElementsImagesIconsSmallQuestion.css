@@ -1,0 +1,10 @@
+.elements-images-icons-small-question,
+.elements-images-icons-small-question * {
+  box-sizing: border-box;
+}
+.elements-images-icons-small-question {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}

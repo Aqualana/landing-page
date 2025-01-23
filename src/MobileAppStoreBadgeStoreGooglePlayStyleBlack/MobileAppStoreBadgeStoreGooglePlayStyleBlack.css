@@ -1,0 +1,48 @@
+.mobile-app-store-badge-store-google-play-style-black,
+.mobile-app-store-badge-store-google-play-style-black * {
+  box-sizing: border-box;
+}
+.mobile-app-store-badge-store-google-play-style-black {
+  background: #000000;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #a6a6a6;
+  border-width: 1px;
+  width: 135px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.mobile-app-store-badge-store-google-play-style-black .google-play {
+  width: 62.8%;
+  height: 42.57%;
+  position: absolute;
+  right: 6.8%;
+  left: 30.4%;
+  bottom: -27.76%;
+  top: 85.19%;
+  transform: translate(0px, -17.03px);
+  overflow: visible;
+}
+.mobile-app-store-badge-store-google-play-style-black .get-it-on {
+  width: 28.94%;
+  height: 16.22%;
+  position: absolute;
+  right: 40.51%;
+  left: 30.56%;
+  bottom: 50.7%;
+  top: 33.09%;
+  transform: translate(0px, -6.49px);
+  overflow: visible;
+}
+.mobile-app-store-badge-store-google-play-style-black .google-play-logo {
+  width: 17.05%;
+  height: 64.3%;
+  position: absolute;
+  right: 75.57%;
+  left: 7.39%;
+  bottom: -46.45%;
+  top: 82.15%;
+  transform: translate(0px, -25.72px);
+  overflow: visible;
+}

@@ -1,0 +1,33 @@
+.elements-buttons-big-normal,
+.elements-buttons-big-normal * {
+  box-sizing: border-box;
+}
+.elements-buttons-big-normal {
+  width: 240px;
+  height: 55px;
+  position: relative;
+}
+.elements-buttons-big-normal .rectangle-4 {
+  border-radius: 0px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.elements-buttons-big-normal .big-cta {
+  color: #ffffff;
+  text-align: center;
+  font-family: "CalSans-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  position: absolute;
+  right: 5%;
+  left: 5.42%;
+  width: 89.58%;
+  top: 50%;
+  translate: 0 -50%;
+}

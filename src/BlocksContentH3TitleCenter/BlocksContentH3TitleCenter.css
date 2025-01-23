@@ -1,0 +1,21 @@
+.blocks-content-h-3-title-center,
+.blocks-content-h-3-title-center * {
+  box-sizing: border-box;
+}
+.blocks-content-h-3-title-center {
+  height: 90px;
+  position: relative;
+}
+.blocks-content-h-3-title-center .title {
+  color: #ffffff;
+  text-align: center;
+  font-family: "CalSans-SemiBold", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  position: absolute;
+  right: 1.46%;
+  left: 0%;
+  width: 98.54%;
+  top: 0px;
+  height: 85px;
+}

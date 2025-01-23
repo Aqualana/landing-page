@@ -1,0 +1,11 @@
+.mobile-app-store-badge-store-app-store-style-black,
+.mobile-app-store-badge-store-app-store-style-black * {
+  box-sizing: border-box;
+}
+.mobile-app-store-badge-store-app-store-style-black {
+  border-radius: 7px;
+  width: 120px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
