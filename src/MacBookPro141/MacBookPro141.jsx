@@ -134,14 +134,13 @@ export const MacBookPro141 = ({ className, ...props }) => {
         personalized tips to save water and lower your bills.{" "}
       </div>
       <div className="the-team2">The Team </div>
-      <div className="group" >
+      <div className="group" ref={sectionsRef.faq}>
         <BlocksContentH3TitleCenter
           text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance" 
         ></BlocksContentH3TitleCenter>
       
       <ComponentsFaQsFaq1Closed
-        ref={sectionsRef.faq}
         text="Will I need someone to set up the sensors in my house ?"
         className="elements-fa-qs-faq-1-closed-instance"
       ></ComponentsFaQsFaq1Closed>
