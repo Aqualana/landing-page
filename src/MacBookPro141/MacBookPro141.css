@@ -1114,6 +1114,9 @@
   top: 78.88% !important;
 }
 .mac-book-pro-14-1 .ui-interactions-buttons-cta-big-normal-copy-2-instance {
+  color: #292929;
+  text-align: center;
+  font-family: "CalSans-SemiBold", sans-serif;
   width: 56.92% !important;
   height: 1.43% !important;
   position: absolute !important;

@@ -8,7 +8,7 @@ export const ElementsButtonsBigNormal = ({
   return (
     <div className={"elements-buttons-big-normal " + className}>
       <img className="rectangle-4" src="rectangle-40.svg" />
-      <div className="big-cta">Big CTA </div>
+      <div className="big-cta"> </div>
     </div>
   );
 };
