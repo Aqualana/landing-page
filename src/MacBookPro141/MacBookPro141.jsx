@@ -7,15 +7,28 @@ import { MobileAppStoreBadgeStoreAppStoreStyleBlack } from "../MobileAppStoreBad
 import { MobileAppStoreBadgeStoreGooglePlayStyleBlack } from "../MobileAppStoreBadgeStoreGooglePlayStyleBlack/MobileAppStoreBadgeStoreGooglePlayStyleBlack.jsx";
 import { ElementsInputsDefaultPlaceholder } from "../ElementsInputsDefaultPlaceholder/ElementsInputsDefaultPlaceholder.jsx";
 import { ElementsButtonsBigNormal } from "../ElementsButtonsBigNormal/ElementsButtonsBigNormal.jsx";
+import React, { useRef } from "react";
 
 export const MacBookPro141 = ({ className, ...props }) => {
+  // Refs for sections
+  const sectionsRef = {
+    whyAqualana: useRef(null),
+
+  };
+
+  const scrollToSection = (section) => {
+    sectionsRef[section].current.scrollIntoView({ behavior: "smooth" });
+  };
+
+
+
   return (
     <div className={"mac-book-pro-14-1 " + className}>
       <div className="hero-bg"></div>
       <div className="we-offer-a-wide-range-of-services-all-in-one-app">
         We offer a wide range of services, all in one app{" "}
       </div>
-      <div className="why-aqualana">Why Aqualana? </div>
+      <div className="why-aqualana" ref={sectionsRef.features}>Why Aqualana? </div>
       <div className="group-628">
         <div className="rectangle-401"></div>
         <div className="rectangle-33"></div>
@@ -102,7 +115,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="start-saving">START SAVING </div>
       </div>
       <div className="frame-547">
-        <div className="features">FEATURES </div>
+        <div className="features" onClick={() => scrollToSection("features")}>FEATURES </div>
         <div className="the-team">THE TEAM </div>
         <div className="testimonials2">TESTIMONIALS </div>
         <div className="faq">FAQ </div>
