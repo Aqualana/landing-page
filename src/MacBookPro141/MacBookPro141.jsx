@@ -138,7 +138,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <BlocksContentH3TitleCenter
           ref={sectionsRef.faq}
           text="FAQ (Frequent Asked Questions)"
-          className="get-high-converting"
+          className="elements-content-h-3-title-center-instance"
         ></BlocksContentH3TitleCenter>
       </div>
       <ComponentsFaQsFaq1Closed
@@ -205,12 +205,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <img className="linkedin2" src="linkedin1.svg" />
         <img className="facebook2" src="facebook1.svg" />
         <img className="logo" src="logo0.svg" />
-        <div className="dr-angela-doe">
-          <span>
-            <span className="dr-angela-doe-span">Dr.</span>
-            <span className="dr-angela-doe-span2">Angela Doe</span>
-          </span>{" "}
-        </div>
+
         <img className="image-12" src="image-11.png" />
         <img className="vector-1714" src="vector-17140.svg" />
         <div className="copyright-2025-all-rights-reserved-aqualana">
