@@ -141,6 +141,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         ></BlocksContentH3TitleCenter>
       
       <ComponentsFaQsFaq1Closed
+        ref={sectionsRef.faq}
         text="Will I need someone to set up the sensors in my house ?"
         className="elements-fa-qs-faq-1-closed-instance"
       ></ComponentsFaQsFaq1Closed>
