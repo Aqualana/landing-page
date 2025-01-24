@@ -88,17 +88,12 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <img className="image-7" src="image-70.png" />
       </div>
       <div className="eddakhla-ouarzazate-et-el-jadida-des-villes-qui-l-instar-de-nombreuses-autres-au-maroc-et-en-afrique-du-nord-souffrent-du-stress-hydrique-bien-que-nous-venions-chacune-d-une-ville-diff-rente-notre-conscience-et-notre-pr-occupation-commune-face-cette-probl-matique-nous-ont-r-unies-nous-avons-eu-la-chance-de-participer-un-hackathon-o-la-communaut-organisatrice-partageait-notre-engagement-pour-la-pr-servation-de-l-eau-nous-avons-ainsi-d-cid-d-agir-en-mobilisant-nos-ressources-et-nos-capacit-s-intellectuelles-c-est-dans-ce-contexte-qu-est-n-e-aqua-lana-une-initiative-r-pondant-l-un-des-d-fis-majeurs-de-notre-poque-le-stress-hydrique">
-        Eddakhla, Ouarzazate et El Jadida : Des villes qui, à l&#039;instar de
-        nombreuses autres au Maroc et en Afrique du Nord, souffrent du stress
-        hydrique. Bien que nous venions chacune d&#039;une ville différente,
-        notre conscience et notre préoccupation commune face à cette
-        problématique nous ont réunies. Nous avons eu la chance de participer à
-        un hackathon où la communauté organisatrice partageait notre engagement
-        pour la préservation de l&#039;eau. Nous avons ainsi décidé d&#039;agir
-        en mobilisant nos ressources et nos capacités intellectuelles.
-        C&#039;est dans ce contexte qu&#039;est née AquaLana, une initiative
-        répondant à l&#039;un des défis majeurs de notre époque : le stress
-        hydrique.{" "}
+      Eddakhla, Ouarzazate and El Jadida: Cities that, like many others in Morocco and North Africa, 
+      suffer from water stress. Although we come from different cities, our common awareness and concern 
+      for this issue brought us together. We were lucky enough to participate in a hackathon where the 
+      organizing community shared our commitment to water conservation. We have therefore decided to act 
+      by mobilizing our resources and intellectual capacities. It is in this context that AquaLana was 
+      born, an initiative responding to one of the major challenges of our time: water stress.{" "}
       </div>
       <div className="button-add-to-card">
         <div className="start-saving">START SAVING </div>
