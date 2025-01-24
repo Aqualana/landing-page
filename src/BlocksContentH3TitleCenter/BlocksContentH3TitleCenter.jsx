@@ -8,7 +8,7 @@ export const BlocksContentH3TitleCenter = ({
   return (
     <div className={"blocks-content-h-3-title-center " + className}>
       <div className="title">
-        Lorem ipsum dolor sit amet con sectetur adipisicing elit{" "}
+        {text}
       </div>
     </div>
   );
