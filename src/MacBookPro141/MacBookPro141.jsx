@@ -134,7 +134,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         personalized tips to save water and lower your bills.{" "}
       </div>
       <div className="the-team2">The Team </div>
-      <div ref={sectionsRef.frequentQuestions}>
+      <div >
         <BlocksContentH3TitleCenter
           text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance" 
@@ -159,7 +159,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
       ></ComponentsFaQsFaq1Collapsed>
       </div>
 
-      <div className="newsletter">
+      <div className="newsletter" ref={sectionsRef.frequentQuestions}>
         <div className="bg"></div>
         <div className="download-our-app-and-start-saving-on-your-water-consumption-bills-today">
           Download our app and start saving on your water consumption bills
