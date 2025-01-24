@@ -5,7 +5,7 @@
 .elements-buttons-big-normal {
   width: 240px;
   height: 55px;
-  position: relative;
+  position: center;
 }
 .elements-buttons-big-normal .rectangle-4 {
   border-radius: 0px;
