@@ -209,7 +209,15 @@ export const MacBookPro141 = ({ className, ...props }) => {
 
         <img className="image-12" src="image-11.png" />
         <img className="vector-1714" src="vector-17140.svg" />
-        <div className="copyright-2025-all-rights-reserved-aqualana">
+        <div className="copyright-2025-all-rights-reserved-aqualana"
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/path-to-your-pdf-file/copyright-document.pdf"; // Replace with your PDF file path
+            link.download = "Copyright-2025-Aqualana.pdf"; // Name for the downloaded file
+            link.click();
+          }}
+          style={{ cursor: "pointer", textDecoration: "underline", color: "blue" }}
+        >
           Copyright © 2025 all rights reserved Aqualana{" "}
         </div>
         <MobileAppStoreBadgeStoreAppStoreStyleBlack
