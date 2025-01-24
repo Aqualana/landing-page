@@ -12,7 +12,7 @@ export const ComponentsFaQsFaq1Closed = ({
         <div className="rectangle-10-copy"></div>
         <img className="div" src="div0.svg" />
         <div className="lorem-ipsum-dolor-si">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit?{" "}
+          {text}
         </div>
       </div>
       <ElementsImagesIconsSmallQuestion className="ui-images-icons-small-question-instance"></ElementsImagesIconsSmallQuestion>
