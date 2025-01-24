@@ -46,7 +46,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         </div>
       </div>
       <img className="image-6" src="image-60.png" />
-      <div className="people-love-our-app">People Love Our App </div>
+      <div className="people-love-our-app">People Feedback </div>
       <img className="fill-7" src="fill-70.svg" />
       <img className="slider-nav" src="slider-nav0.svg" />
       <div className="_1">
@@ -64,20 +64,18 @@ export const MacBookPro141 = ({ className, ...props }) => {
       <div className="_4">
         <div className="rectangle-3862"></div>
         <img className="stars2" src="stars1.svg" />
-        <div className="julian-vidal">Julian Vidal </div>
+        <div className="julian-vidal"> K. Rachida </div>
         <div className="warrant-present-garrets-limited-cordial-in-inquiry-to-supported-me-sweetness-behaviour-shameless-excellent-so-arranging">
-          Warrant present garrets limited cordial in inquiry to. Supported me
-          sweetness behaviour shameless excellent so arranging.{" "}
+          I recently had a water leak but couldn’t identify the source, which led to a lot of unnecessary work. This solution could have been a great help.{" "}
         </div>
-        <div className="never-this-amazed">Never this amazed </div>
+        <div className="never-this-amazed">Promissing solution </div>
       </div>
       <div className="_5">
         <div className="rectangle-3863"></div>
         <img className="stars3" src="stars2.svg" />
-        <div className="fabian-vidal">Fabian Vidal </div>
+        <div className="fabian-vidal">B. Mohamed</div>
         <div className="warrant-present-garrets-limited-cordial-in-inquiry-to-supported-me-sweetness-behaviour-shameless-excellent-so-arranging2">
-          Warrant present garrets limited cordial in inquiry to. Supported me
-          sweetness behaviour shameless excellent so arranging.{" "}
+          It's a great idea to raise awareness and encourage eco-responsible behavior in water usage.{" "}
         </div>
         <div className="thank-you">Thank you! </div>
       </div>
@@ -125,25 +123,25 @@ export const MacBookPro141 = ({ className, ...props }) => {
       <div className="the-team2">The Team </div>
       <div className="group">
         <BlocksContentH3TitleCenter
-          text="FAQ (Foire Aux Questions)"
+          text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance"
         ></BlocksContentH3TitleCenter>
       </div>
       <ComponentsFaQsFaq1Closed
-        text="Puis-je choisir avec qui je voyage ?"
+        text="Will I need someone to set up the sensors in my house ?"
         className="elements-fa-qs-faq-1-closed-instance"
       ></ComponentsFaQsFaq1Closed>
       <ComponentsFaQsFaq1Closed
-        text="Comment fonctionne ShareWay ?"
+        text="Is it possible to pay from this app the water bill ?"
         className="elements-fa-qs-faq-1-closed-copy-instance"
       ></ComponentsFaQsFaq1Closed>
       <ComponentsFaQsFaq1Closed
-        text="ShareWay est-elle gratuite ?"
+        text="How long are the products covered under warranty ?"
         className="elements-fa-qs-faq-1-closed-copy-3-instance"
       ></ComponentsFaQsFaq1Closed>
       <ComponentsFaQsFaq1Collapsed
-        text="Les trajets sont-ils sécurisés ?"
-        text2="Oui, tous les profils sont vérifiés et un système de notation vous permet de choisir des utilisateurs de confiance."
+        text="Is it technically possible to move the sensors to a new house if I relocate?"
+        text2="Yes, it is possible technically."
         className="elements-fa-qs-faq-1-collapsed-instance"
       ></ComponentsFaQsFaq1Collapsed>
       <div className="newsletter">
