@@ -6,4 +6,17 @@
   height: 90px;
   position: relative;
 }
+.blocks-content-h-3-title-center .title {
+  color: #515151;
+  text-align: center;
+  font-family: "CalSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 1.46%;
+  left: 0%;
+  width: 98.54%;
+  top: 0px;
+  height: 85px;
+}
 

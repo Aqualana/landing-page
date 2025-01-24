@@ -137,7 +137,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
       <div className="group" ref={sectionsRef.faq}>
         <BlocksContentH3TitleCenter
           text="FAQ (Frequent Asked Questions)"
-          className="elements-content-h-3-title-center-instance"
+          className="faq" 
         ></BlocksContentH3TitleCenter>
       
       <ComponentsFaQsFaq1Closed
@@ -212,7 +212,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="copyright-2025-all-rights-reserved-aqualana"
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/path-to-your-pdf-file/copyright-document.pdf"; // Replace with your PDF file path
+            link.href = "/C:/Users/admin/Desktop/INE3/Aqualana_Copyright"; // Replace with your PDF file path
             link.download = "Copyright-2025-Aqualana.pdf"; // Name for the downloaded file
             link.click();
           }}
