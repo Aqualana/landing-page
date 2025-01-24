@@ -136,6 +136,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
       <div className="the-team2">The Team </div>
       <div >
         <BlocksContentH3TitleCenter
+          ref={sectionsRef.frequentQuestions}
           text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance" 
         ></BlocksContentH3TitleCenter>
@@ -156,7 +157,6 @@ export const MacBookPro141 = ({ className, ...props }) => {
         text="Is it technically possible to move the sensors to a new house if I relocate?"
         text2="Yes, it is possible technically."
         className="elements-fa-qs-faq-1-collapsed-instance"
-        ref={sectionsRef.frequentQuestions}
       ></ComponentsFaQsFaq1Collapsed>
       </div>
 
