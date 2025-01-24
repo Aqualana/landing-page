@@ -8,7 +8,7 @@ export const ElementsInputsDefaultPlaceholder = ({
   return (
     <div className={"elements-inputs-default-placeholder " + className}>
       <div className="rectangle-17"></div>
-      <div className="placeholder">Placeholder </div>
+      <div className="placeholder">{text} </div>
     </div>
   );
 };

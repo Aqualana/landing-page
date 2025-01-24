@@ -134,10 +134,11 @@ export const MacBookPro141 = ({ className, ...props }) => {
         personalized tips to save water and lower your bills.{" "}
       </div>
       <div className="the-team2">The Team </div>
-      <div className="group" ref={sectionsRef.faq}>
+      <div className="group" >
         <BlocksContentH3TitleCenter
+          ref={sectionsRef.faq}
           text="FAQ (Frequent Asked Questions)"
-          className="elements-content-h-3-title-center-instance"
+          className="get-high-converting"
         ></BlocksContentH3TitleCenter>
       </div>
       <ComponentsFaQsFaq1Closed
@@ -190,8 +191,8 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="feedback" onClick={() => scrollToSection("testimonials")}>Feedback </div>
         <div className="the-team3" onClick={() => scrollToSection("theTeam")}>The Team </div>
         <div className="why-aqualana2" onClick={() => scrollToSection("whyAqualana")}>Why Aqualana </div>
-        <div className="aqualana">Aqualana </div>
-        <div className="about">ABOUT </div>
+        <div className="aqualana" onClick={() => scrollToSection("AboutUs")}>Aqualana </div>
+        <div className="about" onClick={() => scrollToSection("AboutUs")}>ABOUT </div>
         <div className="linkedin">Linkedin </div>
         <div className="instagram">Instagram </div>
         <div className="twitter">Twitter </div>
