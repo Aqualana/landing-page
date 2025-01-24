@@ -15,7 +15,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
     whyAqualana: useRef(null),
     theTeam: useRef(null),
     testimonials: useRef(null),
-    faq: useRef(null),
+    frequentQuestions: useRef(null),
     contactUs: useRef(null),
     aboutUs: useRef(null),
 
@@ -123,7 +123,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="features" onClick={() => scrollToSection("whyAqualana")}>FEATURES </div>
         <div className="the-team" onClick={() => scrollToSection("theTeam")}>THE TEAM </div>
         <div className="testimonials2" onClick={() => scrollToSection("testimonials")}>TESTIMONIALS </div>
-        <div className="faq" onClick={() => scrollToSection("faq")}>FAQ </div>
+        <div className="faq" onClick={() => scrollToSection("frequentQuestions")}>FAQ </div>
         <div className="contact-us" onClick={() => scrollToSection("contactUs")}>CONTACT US </div>
       </div>
       <div className="take-control-of-your-water-consumption">
@@ -134,7 +134,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         personalized tips to save water and lower your bills.{" "}
       </div>
       <div className="the-team2">The Team </div>
-      <div className="group" ref={sectionsRef.faq}>
+      <div ref={sectionsRef.frequentQuestions}>
         <BlocksContentH3TitleCenter
           text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance" 
