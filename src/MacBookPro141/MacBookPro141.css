@@ -604,8 +604,8 @@
   color: #515151;
   text-align: left;
   font-family: "SatoshiVariable-Bold", sans-serif;
-  font-size: 16.12194061279297px;
-  font-weight: 700;
+  font-size: 16.12194061279297px !important;
+  font-weight: 700 !important;
   position: relative;
 }
 .mac-book-pro-14-1 .contact-us {

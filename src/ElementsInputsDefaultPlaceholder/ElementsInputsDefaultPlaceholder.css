@@ -9,7 +9,7 @@
 .elements-inputs-default-placeholder .rectangle-17 {
   border-radius: 5px;
   border-style: solid;
-  border-color: #f2f4f6;
+  border-color: #58afce;
   border-width: 1px;
   height: 45px;
   position: absolute;
@@ -19,7 +19,7 @@
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
 }
 .elements-inputs-default-placeholder .placeholder {
-  color: #ffffff;
+  color: #000000;
   text-align: left;
   font-family: "CalSans-SemiBold", sans-serif;
   font-size: 14px;

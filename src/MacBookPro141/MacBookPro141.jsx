@@ -13,6 +13,11 @@ export const MacBookPro141 = ({ className, ...props }) => {
   // Refs for sections
   const sectionsRef = {
     whyAqualana: useRef(null),
+    theTeam: useRef(null),
+    testimonials: useRef(null),
+    faq: useRef(null),
+    contactUs: useRef(null),
+    aboutUs: useRef(null),
 
   };
 
@@ -24,7 +29,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
 
   return (
     <div className={"mac-book-pro-14-1 " + className}>
-      <div className="hero-bg"></div>
+      <div className="hero-bg" ref={sectionsRef.aboutUs}></div>
       <div className="we-offer-a-wide-range-of-services-all-in-one-app">
         We offer a wide range of services, all in one app{" "}
       </div>
@@ -59,7 +64,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         </div>
       </div>
       <img className="image-6" src="image-60.png" />
-      <div className="people-love-our-app">People Feedback </div>
+      <div className="people-love-our-app" ref={sectionsRef.testimonials}>People Feedback </div>
       <img className="fill-7" src="fill-70.svg" />
       <img className="slider-nav" src="slider-nav0.svg" />
       <div className="_1">
@@ -100,7 +105,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="rectangle-3"></div>
         <img className="image-7" src="image-70.png" />
       </div>
-      <div className="eddakhla-ouarzazate-et-el-jadida-des-villes-qui-l-instar-de-nombreuses-autres-au-maroc-et-en-afrique-du-nord-souffrent-du-stress-hydrique-bien-que-nous-venions-chacune-d-une-ville-diff-rente-notre-conscience-et-notre-pr-occupation-commune-face-cette-probl-matique-nous-ont-r-unies-nous-avons-eu-la-chance-de-participer-un-hackathon-o-la-communaut-organisatrice-partageait-notre-engagement-pour-la-pr-servation-de-l-eau-nous-avons-ainsi-d-cid-d-agir-en-mobilisant-nos-ressources-et-nos-capacit-s-intellectuelles-c-est-dans-ce-contexte-qu-est-n-e-aqua-lana-une-initiative-r-pondant-l-un-des-d-fis-majeurs-de-notre-poque-le-stress-hydrique">
+      <div className="eddakhla-ouarzazate-et-el-jadida-des-villes-qui-l-instar-de-nombreuses-autres-au-maroc-et-en-afrique-du-nord-souffrent-du-stress-hydrique-bien-que-nous-venions-chacune-d-une-ville-diff-rente-notre-conscience-et-notre-pr-occupation-commune-face-cette-probl-matique-nous-ont-r-unies-nous-avons-eu-la-chance-de-participer-un-hackathon-o-la-communaut-organisatrice-partageait-notre-engagement-pour-la-pr-servation-de-l-eau-nous-avons-ainsi-d-cid-d-agir-en-mobilisant-nos-ressources-et-nos-capacit-s-intellectuelles-c-est-dans-ce-contexte-qu-est-n-e-aqua-lana-une-initiative-r-pondant-l-un-des-d-fis-majeurs-de-notre-poque-le-stress-hydrique" ref={sectionsRef.theTeam}>
       Eddakhla, Ouarzazate and El Jadida: Cities that, like many others in Morocco and North Africa, 
       suffer from water stress. Although we come from different cities, our common awareness and concern 
       for this issue brought us together. We were lucky enough to participate in a hackathon where the 
@@ -116,10 +121,10 @@ export const MacBookPro141 = ({ className, ...props }) => {
       </div>
       <div className="frame-547">
         <div className="features" onClick={() => scrollToSection("whyAqualana")}>FEATURES </div>
-        <div className="the-team">THE TEAM </div>
-        <div className="testimonials2">TESTIMONIALS </div>
-        <div className="faq">FAQ </div>
-        <div className="contact-us">CONTACT US </div>
+        <div className="the-team" onClick={() => scrollToSection("theTeam")}>THE TEAM </div>
+        <div className="testimonials2" onClick={() => scrollToSection("testimonials")}>TESTIMONIALS </div>
+        <div className="faq" onClick={() => scrollToSection("faq")}>FAQ </div>
+        <div className="contact-us" onClick={() => scrollToSection("contactUs")}>CONTACT US </div>
       </div>
       <div className="take-control-of-your-water-consumption">
         Take Control of Your Water Consumption{" "}
@@ -129,7 +134,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         personalized tips to save water and lower your bills.{" "}
       </div>
       <div className="the-team2">The Team </div>
-      <div className="group">
+      <div className="group" ref={sectionsRef.faq}>
         <BlocksContentH3TitleCenter
           text="FAQ (Frequent Asked Questions)"
           className="elements-content-h-3-title-center-instance"
@@ -181,10 +186,10 @@ export const MacBookPro141 = ({ className, ...props }) => {
       </div>
       <div className="frame-548">
         <div className="text"></div>
-        <div className="contact-us2">Contact Us </div>
-        <div className="feedback">Feedback </div>
-        <div className="the-team3">The Team </div>
-        <div className="why-aqualana2">Why Aqualana </div>
+        <div className="contact-us2" onClick={() => scrollToSection("contactUs")}>Contact Us </div>
+        <div className="feedback" onClick={() => scrollToSection("testimonials")}>Feedback </div>
+        <div className="the-team3" onClick={() => scrollToSection("theTeam")}>The Team </div>
+        <div className="why-aqualana2" onClick={() => scrollToSection("whyAqualana")}>Why Aqualana </div>
         <div className="aqualana">Aqualana </div>
         <div className="about">ABOUT </div>
         <div className="linkedin">Linkedin </div>
@@ -241,7 +246,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         text="Envoyer"
         className="ui-interactions-buttons-cta-big-normal-copy-2-instance"
       ></ElementsButtonsBigNormal>
-      <div className="get-high-converting">
+      <div className="get-high-converting" ref={sectionsRef.contactUs}> 
         Des Questions? Nous Sommes Là !{" "}
       </div>
       <MobileAppStoreBadgeStoreAppStoreStyleBlack
