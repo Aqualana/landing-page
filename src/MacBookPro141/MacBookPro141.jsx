@@ -156,10 +156,11 @@ export const MacBookPro141 = ({ className, ...props }) => {
         text="Is it technically possible to move the sensors to a new house if I relocate?"
         text2="Yes, it is possible technically."
         className="elements-fa-qs-faq-1-collapsed-instance"
+        ref={sectionsRef.frequentQuestions}
       ></ComponentsFaQsFaq1Collapsed>
       </div>
 
-      <div className="newsletter" ref={sectionsRef.frequentQuestions}>
+      <div className="newsletter" >
         <div className="bg"></div>
         <div className="download-our-app-and-start-saving-on-your-water-consumption-bills-today">
           Download our app and start saving on your water consumption bills
