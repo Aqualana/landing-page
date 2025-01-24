@@ -212,7 +212,7 @@ export const MacBookPro141 = ({ className, ...props }) => {
         <div className="copyright-2025-all-rights-reserved-aqualana"
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "../Aqualana_Copyright.pdf"; // Replace with your PDF file path
+            link.href = "Aqualana_Copyright.pdf"; // Replace with your PDF file path
             link.download = "Copyright-2025-Aqualana.pdf"; // Name for the downloaded file
             link.click();
           }}
